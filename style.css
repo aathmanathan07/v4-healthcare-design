@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+header{
+  /* border: 1px solid red; */
+}
+
+.navbar-brand{
+  width: 20% !important;
+}
+
+.navContainer li {
+  font-family: Rajdhani, sans-serif;
+  font-size: 25px;
+
+}
+.navContainer button {
+  background-color: #28a745;
+  /* padding: 10px 20px; */
+  color: white;
+
+}
+.navContainer button:hover{
+  background-color: #000;
+}
+.navContainer button a{
+  font-family: Rajdhani, sans-serif;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+
+}
+
+.herosection{
+    background-image: url(./assets/images/banner.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 8rem 9rem;  
+
+}
+.herojumbotron h1{
+  font-family: Rajdhani, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+  
+}
+.herojumbotron h3 {
+  font-family: Rajdhani, sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    color: #324A6D;
+    padding-bottom: 20px;
+
+}
+.herojumbotron p{
+  font-family: Rajdhani, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #324A6D;
+  
+
+}
+.herojumbotron button{
+  background-color: #28a745;
+      color: white;
+      font-size: 1.1rem;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+}
+.herojumbotron button:hover{
+  background-color: black;
+
+}
+.herojumbotron{   
+   /* padding-right: 190px; */
+   /* text-align: start; */
+}
+.v4webImage img{
+    border-radius:90px ;
+    height: 400px;
+
+    
+}
+.v4webtext h4{
+
+    font-family: Rajdhani, sans-serif;
+    color: #10BAAE;
+    font-size: 20px;
+    padding-bottom: 30px;
+
+
+}
+.v4webtext h2{
+    font-family: Rajdhani, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+.v4webtext p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    
+
+}
+.v4webtext p span{
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #00A662;
+
+}
+.services{
+    background-color: #FAFAFA;
+}
+.contaainer h5{
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #10BAAE;
+
+}
+.contaainer h2{
+    font-family: Rajdhani, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    padding: 30px;
+
+}
+.contaainer p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    
+
+}
+.service-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    border-bottom: 4px solid #17a2b8;
+}
+.service-card h5{
+    font-family: Rajdhani, sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: 700;
+
+}
+.service-card p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    
+
+
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-bottom: 4px solid #17a2b8;
+}
+
+.service-card h5 {
+    color: #212529;
+    /* font-weight: bold; */
+}
+
+.service-card p {
+    color: #6c757d;
+    /* font-size: 0.9rem; */
+}.service-card i{
+    font-size: 50px;
+    color: #10BAAE;
+}
+
+
+
+.service-card .btn {
+    border-radius: 0px;
+    font-size: 0.85rem;
+}
+.service-card .btn:hover{
+    background-color: #17a2b8;
+    color: white;
+}
+
+
+.ccontainer h2{
+    font-family: Rajdhani, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.ccontainer p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 25px;
+    
+
+}
+.ccontainer button{
+    padding: 10px 30px;
+    border: 2px solid green;
+}
+.card-icon i {
+    font-size: 2rem;
+    color: #17a2b8; /* Customize color for icons */
+  }
+
+  .card {
+    border: none; /* Remove card borders */
+  }
+
+  .center-image {
+    border-radius: 15px; /* Rounded corners for the image */
+  }
+
+  .card-title {
+    font-weight: bold;
+  }
+
+.differtext h5{
+    font-family: Rajdhani, sans-serif;
+    font-size: 22px;
+    
+    font-weight: 500;
+    color: #10BAAE;
+
+}
+.diflef{
+    padding-top: 30px;
+}
+.diflef h5{
+    font-family: Rajdhani, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    
+
+}
+.diflef p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.diflef i{
+    font-size: 2rem;
+    color: #17a2b8;
+    padding-bottom: 20px;
+
+}
+.differtext h2{
+    font-family: Rajdhani, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    
+
+} 
+.differtext p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+
+}
+.worktext h5{
+    font-family: Rajdhani, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #10BAAE;
+
+}
+.worktext h2{
+    font-family: Rajdhani, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+.worktext p {
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+
+}
+.workkard h5{
+  font-family: Rajdhani, sans-serif;
+  font-size: 24px;
+  color: #00c4cc;
+
+}
+.workkard p{
+  font-family: Rajdhani, sans-serif;
+  font-size: 24px;
+
+}
+.workpic img {
+    aspect-ratio: 4/4;
+    width: 100%;
+}
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .card-container {
+    position: relative;
+    overflow: hidden;
+    border: none;
+  }
+
+  .card-container img {
+    transition: transform 0.3s ease;
+  }
+
+  .card-container:hover img {
+    transform: scale(1.1); /* Zoom effect */
+  }
+.workcontainer{
+    background-color: #FAFAFA;
+
+} 
+.clienttext h5{
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #10BAAE;
+
+} 
+.clienttext h2{
+    font-family: Rajdhani, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 30px;
+
+}
+.testimonial-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  .testimonial-card .quote-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #00c4cc;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-card .profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    border: 5px solid rgba(0, 196, 204, 0.3);
+    background-color: #f8f9fa;
+  }
+
+  .testimonial-card h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+  }
+
+  .testimonial-card p {
+    color: #6c757d;
+    padding-top: 20px;
+    
+    line-height: 20px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+  }
+  .quicklinkContainer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .quicklinkContainer a {
+    color: #0ff; /* Light cyan */
+    text-decoration: none;
+  }
+  .quicklinkContainer a:hover {
+    text-decoration: underline;
+  }
+  .quicklinkContainer-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  .quicklinkContainer-contact {
+    margin-bottom: 20px;
+  }
+  .-contact a {
+     display: block;
+    margin: 5px 0;
+    padding: 10px;
+    color: #0ff;
+    font-size: 18px; 
+
+  }
+  .cona a{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Rajdhani, sans-serif;
+
+  }
+  .footer-links a {
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+  }
+  .footer-title{
+    font-family: Rajdhani, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+
+  }
+  .footer-titlle {
+    font-family: Rajdhani, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+
+  }
+  .copyrightcontainer{
+    background-color: #000;
+  }
+  .copytext  p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 18px;
+
+  }
+  .social-icons i{
+    font-size: 20px;
+    color: #009658;
+  }
+  
+  .workkard{
+    display: flex;
+    justify-content: space-between;
+  }
+  .workkard i{
+    font-size: 40px;
+  }
+  @media(max-width:768px){
+
+    .herosection{
+      background-image: url(./assets/images/banner.webp);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      padding: 1rem 1rem;  
+  
+  }
+  .herojumbotron h1{
+    font-family: Rajdhani, sans-serif;
+      font-size: 52px;
+      font-weight: 700;
+    
+  }
+  .herojumbotron h3 {
+    font-family: Rajdhani, sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+      color: #324A6D;
+      padding-bottom: 20px;
+  
+  }
+  .herojumbotron p{
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #324A6D;
+    
+  
+  }
+  .herojumbotron button{
+    background-color: #28a745;
+        color: white;
+        font-size: 1.1rem;
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+        
+  }
+  .navContainer li {
+    display: none;
+  
+  }
+
+  }  
+
+  
+    
+   
